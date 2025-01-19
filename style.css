@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: bisque;
+
+}
+.navbar-toggler-icon {
+  background-color: #d4cbc2;
+  border-radius: 10px;
+}
+.panner1{
+  width: 100%;
+  height: 90vh;
+  background-image: linear-gradient;
+  background-position: center;
+  background-size: cover;
+}
+.panner1 video{
+  position:absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-size: cover;
+
+}
+
+@media(min-aspect-ratio : 16/9){
+  .panner1 video{
+    width: 100%;
+    height: auto;
+  }
+}
+@media(max-aspect-ratio : 16/9){
+  .panner1 video{
+    width: auto;
+    height:100%;
+  }
+}
+
+.navbar {
+  width: 100%;
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #23170B;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  
+
+}
+
+.logo {
+  width: 50px;
+  margin-top: -7px;
+  cursor: pointer;
+  border-radius: 70px;
+}
+
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 12px;
+
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #d4cbc2;
+  font-weight: 600;
+  padding: 10px;
+}
+
+li a:hover {
+  background: rgb(0, 0, 0);
+  transition: 0.3s;
+  border-radius: 30px;
+}
+
+.navbar a:hover {
+  color: #e8e2db;
+  transition: 0.1s;
+}
+
+.content{
+
+  text-align: center;
+  color: #d4cbc2;
+  position:absolute;
+  padding-top: 13%;
+  
+}
+.content h1{
+  font-size: 65px;
+  font-weight: 800;
+}
+button {
+  width: 200px;
+  padding: 15px;
+  margin: 20px 5px;
+  text-align: center;
+  border-radius: 25px;
+  color: #23170B;
+  border: 2px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover {
+  background: #23170B;
+  transition: 0.5s;
+}
+
+button:hover {
+  color: #d4cbc3;
+}
+
+
+
+.email h1 {
+  color: #23170B;
+}
+
+.email h2 {
+  text-align: center;
+  color: #23170B;
+}
+
+.email h3 {
+  text-align: center;
+  color: #544333;
+}
+
+.email h3:hover {
+  background-color: #23170B;
+  color: #d4cbc2;
+  transition: 0.3s;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 15px;
+}
+
+.email a {
+  text-decoration: none;
+}
+
+.header {
+  background-color: #23170B;
+  font-weight: 600;
+  color: #d4cbc2;
+  padding: 10px;
+}
+
+
+
+.fot {
+  padding-bottom: 0;
+}
+
+.form {
+  text-align: center
+}
+
+.f1 {
+
+  font-size: 20px;
+  font-weight: 600;
+
+}
+
+.centar {
+  color: #23170B;
+  margin: 0px 10px;
+  padding: 10px;
+}
+
+.head {
+  text-align: center;
+  color: #d4cbc3;
+}
+
+.head1 {
+
+  text-align: center;
+  color: #d4cbc3;
+}
+
+.head2 {
+  text-align: center;
+  color: #23170B;
+  padding: 10px;
+}
+
+.med {
+  text-align: center;
+  color: #23170B;
+}
+
+.med h1 {
+  font-size: 50px;
+}
+
+
+.problems {
+  text-align: center;
+}
+
+.problems ul li {
+  list-style: circle;
+  margin: 0px 300px;
+  padding: 10px;
+  text-align: left;
+}
+
+
+
+
